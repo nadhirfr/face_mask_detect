@@ -77,7 +77,7 @@ for i in range(0, detections.shape[2]):
 		face = cv2.resize(face, (100, 100))
 		face = img_to_array(face)
 		face = preprocess_input(face)
-		face = np.expand_dims(face, axis=0)
+		# face = np.expand_dims(face, axis=0)
 
 		# pass the face through the model to determine if the face
 		# has a mask or not
