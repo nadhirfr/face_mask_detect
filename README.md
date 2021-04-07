@@ -49,6 +49,7 @@ __without_mask__: 503 pictures
 The experiment of this system are using two architecture model:
 
  1. CNN
+
     The first model uses a general convolutional layer. Input images in 100x100 size with a grayscale transform. Followed by two Conv2D layer with 200 and 100 filter size respectively. Then using fully connected layer (Dense 64) and (Dense 2). Below is the view of the neural network layer:
 
   ![layer_cnn](https://github.com/nadhirfr/face_mask_detect/blob/main/result/layer_cnn.svg)
