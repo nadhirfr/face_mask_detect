@@ -25,7 +25,7 @@
 - [MobileNetV2](https://arxiv.org/abs/1801.04381)
 
 ## :star: Features
-This face mask detection experiment use 3 different datasets with 2 different models architecture. More details in [Dataset](#dataset) and [Models](#models) section respectively. The most accurate model, which has **100% accuracy**, is trained using **dataset_1** with the **MobileNetV2** architecture.  Using MobileNetV2 architecture also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, NVidia Jetson, etc.). More comparative detail in Result section.
+This face mask detection experiment use 3 different datasets with 2 different models architecture. More details in [Dataset](#file_folder-dataset) and [Models](#bulb-models) section respectively. The most accurate model, which has **100% accuracy**, is trained using **dataset_1** with the **MobileNetV2** architecture.  Using MobileNetV2 architecture also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, NVidia Jetson, etc.). More comparative detail in Result section.
 
 This system can be used in real-time applications which require face-mask detection. This project can also be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
